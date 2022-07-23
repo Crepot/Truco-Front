@@ -1,0 +1,43 @@
+.Tablero{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+
+
+.Cartas-plyer{
+    display: flex;  
+    position: absolute;
+    margin: auto;
+    margin-top: 38%;
+    left: 40%;
+}
+
+.Cartas-plyer2{
+    display: flex;  
+    position: absolute;
+    margin: auto;
+    margin-top: 18%;
+    left: 37%;
+    transform: scale(60%);
+}
+
+.Cartas-jugadas{
+    position: absolute;
+    margin: auto;
+    margin-top: 29%;
+    left: 43%;
+    width: 20;
+    height: .2;
+    transform: perspective(900px) rotateX( 50deg );
+}
+
+
+.Cartas-jugadas2{
+    position: absolute;
+    margin: auto;
+    margin-top: 26%;
+    left: 50%;
+    transform: perspective(900px) rotateX( 50deg ) rotate(180deg) scale(87%);
+}
+
